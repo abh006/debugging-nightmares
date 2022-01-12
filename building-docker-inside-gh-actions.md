@@ -29,7 +29,7 @@ failed to compute cache key: "package.json" not found: not found
 
 That means there is no such file named package.json. Well, It actually is there, in the folder 
 
-I started running these actions locally (Thanks to act). And still no luck. (well, sometimes it works locally)
+I started running these actions locally (Thanks to [act](https://github.com/nektos/act)). And still no luck. (well, sometimes it works locally)
 
 I tried doing an `ls` to see what all files where there in the build env. Unfortunately it was listing all the files in my local folder.
  
