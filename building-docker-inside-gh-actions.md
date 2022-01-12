@@ -38,3 +38,5 @@ Finally, as usual, Stackoverflow to the rescue!  Well, kind of.
 There was a guy shouting out the importance of `.` at the end of the command. Well, I didn't have any. 
 
 It means the build command I was doing, didn't have any context to copy from. Piping a docker file simply builds it out without considering from which folder we are running it.
+
+Refer: [Docker Docs](https://docs.docker.com/engine/reference/commandline/build/#build-with--)
