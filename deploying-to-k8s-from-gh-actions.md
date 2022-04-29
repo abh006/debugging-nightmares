@@ -52,6 +52,9 @@ After some more digging I found this [article](https://ianbelcher.me/tech-blog/s
 
 Actually, I was already half-way through this, when I found it.
 I had to edit the config map and add my user `deploy` to it.
+```
+kubectl edit configmap aws-auth -n kube-system
+```
 ```yaml
 apiVersion: v1
 data:
